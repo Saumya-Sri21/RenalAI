@@ -1,47 +1,41 @@
-# 🧬RenalAI- Your Personal Health Assitant 
+# 🧬 RenalAI — Your Personal Health Assistant  
 
-This project detects **Chronic Kidney Disease (CKD)** and classifies patients into various stages using medical parameters such as blood pressure, serum creatinine, hemoglobin levels, etc.  
-It applies **Machine Learning models** and **optimization techniques** to enhance accuracy and handle class imbalance.
-
+This project detects **Chronic Kidney Disease (CKD)** and classifies patients into various stages using medical parameters such as blood pressure, serum creatinine, and hemoglobin levels.  
+It applies **Machine Learning models** and **optimization techniques** to enhance prediction accuracy and handle class imbalance.
 
 ---
-
 
 ## 🚀 Features
--Predicts CKD probability for patients  
--Classifies into CKD stages 
--Interactive User-friendly App
-
+- Predicts CKD probability for patients  
+- Classifies into CKD stages  
+- Interactive and user-friendly Streamlit interface  
 
 ---
-
 
 ## 🧠 Tech Stack
--Frontend : Streamlite
--Backend : Python
--Model Used : RandomForest , XGBooster , DecisionTree
--Data Handling : Pandas, NumPy
--Visualization : Matplotlib, Seaborn
-
+- **Frontend:** Streamlit  
+- **Backend:** Python  
+- **Models Used:** Random Forest, XGBoost, Decision Tree  
+- **Data Handling:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
 
 ---
-
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 ```bash
-git clone the repo
+git clone <repository_url>
 cd CKD_Classifier
 ```
 
-### 1️⃣ Windows
+###  Windows
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 1️⃣ Clone the Repository
+### Install Libraries
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
