@@ -529,9 +529,25 @@ input {
 .stNumberInput input {
     background:#f8fbff !important;
     color:#111827 !important;
-    border-radius:12px !important;
+    border-radius:0px !important;
     border:2px solid #c7d2fe !important;
     font-size:16px !important;
+    box-shadow:none !important;
+}
+.stNumberInput div {
+    border-radius:0px !important;
+}
+
+/* PLUS & MINUS BUTTONS */
+.stNumberInput button {
+    background-color:#2563eb !important;
+    color:white !important;
+    border:none !important;
+}
+
+.stNumberInput button:hover {
+    background-color:#3b82f6 !important;
+    color:white !important;
 }
 
 /* SELECT BOX */
